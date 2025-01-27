@@ -1,0 +1,73 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", serif;
+}
+.container {
+  box-sizing: border-box;
+  width: 364px;
+  height: 620px;
+  background-color:  hsl(216, 50%, 16%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 25px;
+  font-weight: 300, 400, 600;
+  box-shadow:  0px 0px 6px 1px hsl(218deg 100% 50%);
+}
+  
+img{
+  width: 100%;
+  border-radius: 8px;
+}
+h2 {
+  color: hsl(0, 0%, 100%)
+}
+p{
+  color: hsl(215, 51%, 70%)
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: hsl(178, 100%, 50%);
+}
+.box-right{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: hsl(215, 51%, 70%)
+}
+hr{
+  border: 1px solid hsl(215, 32%, 27%);
+}
+.box2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.name{
+  color: hsl(0, 0%, 100%)
+}
+.box2 img{
+  border: 2px solid  hsl(178, 100%, 50%);
+  border-radius: 50%;
+  width: 30px;
+
+}
+.creator{
+  color: hsl(215, 51%, 70%)
+}
+.name{
+  color: hsl(0, 0%, 100%);
+}
+.name:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
