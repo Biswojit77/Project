@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(Gilroy-Medium.ttf) format(truetype);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body,html{
+        height: 100%;
+        width: 100%;
+        font-family: "Gilroy";
+
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    font-weight: 800;
+    border-bottom: 0.1px solid black;
+}
+.nav-h1 span{
+    color: palegreen;
+}
+.nav-option a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+.nav-option a:hover{
+   color: palegreen;
+   border-bottom: 3px solid black;
+
+}
+.nav-option .home{
+    color: palegreen;
+
+}
+.nav-option .home:hover{
+    
+color: black;
+border-bottom: 3px solid palegreen;
+}
+.nav-button button{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: palegreen;
+    border-radius: 10px;
+    border: none;
+    font-size: 17pxf;
+    cursor: pointer;
+    
+}
+.nav-button button:hover{
+    background-color: palegreen;
+    color: black;
+    
+}
+.herosection{
+    height: 500px;
+    width: 100%;
+    display:flex;
+}
+.herosecleft{
+    height: 500px;
+    width: 50%;
+
+}
+.herosecleft1{
+    padding-left: 80px;
+    padding-top: 150px;
+}
+.herosecl1-para{
+    font-size: 30px;
+    padding-bottom: 7px;
+}
+.herosecl-h1{
+    font-size: 25px;
+    color: palegreen;
+}
+.herosectionl2-para{
+    font-size: 23px;
+    padding-bottom: 7px
+}
+.herosectionl-btn{
+    padding-top: 10px;
+}
+.herosectionl-btn button{
+    height: 45px;
+    width: 180px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: palegreen;
+    font-size: 15px;
+}
+.herosectionl-btn button:hover{
+    background-color: gray;
+}
+
+.herosectionl-btn a{
+    text-decoration: none;
+    color: palegreen;
+}
+.herosectionl-btn a:hover{
+    color: black;
+}
+
+
+
+
+.herosecright{
+    height: 500px;
+    width: 50%;
+   
+}
+.herosecright-image{
+    height: 1000px;
+    flex-wrap:unset;
+    scroll-behavior: smooth;
+    
+
+}
+.herosecright-image-myimage{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.about{
+    height: 480px;
+    width: 100%;
+    display: flex;
+
+}
+.about-left{
+    width: 30%;
+}
+.about-left1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-left-box{
+    height: 400px;
+    width: 68%;
+    background-color: palegreen;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 43px;
+    padding-top: 30px;
+    border: 3px solid rgb(144, 144, 144);
+}
+
+.about-right{
+    width: 60%;
+}
+.about-right-h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    
+}
+.about-right-paraa{
+    font-size: 16px;
+    line-height: 22px;
+    word-spacing: 2.1px;
+    font-weight: 500;
+}
+.about-right-skills{
+padding-top: 10px;
+
+}
+.about-right-skills h2{
+
+
+
+}
+.about-right-skills span{
+
+    padding-left: 20px;
+
+
+}
